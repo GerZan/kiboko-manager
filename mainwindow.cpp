@@ -63,6 +63,7 @@ MainWindow::MainWindow(QWidget *parent) :
 	dialogNewCompetition = new DialogNewCompetition(this);
 	dialogGeneralSettings = new DialogGeneralSettings(this);
 	dialogDisplaySettings = new DialogDisplaySettings(this);
+    dialogFotoFinishSettings = new DialogFotoFinishSettings(this);
 	dialogCsvUploadCommand = new DialogCsvUploadCommand(this);
 	dialogTimeStampGenerator = 0;
 	dialogTimeStampGenerator2 = new DialogTimeStampGenerator2(this);

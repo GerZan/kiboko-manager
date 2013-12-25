@@ -45,7 +45,8 @@ HEADERS += boat.h \
     publictablewidget.h \
 	autosavemanager.h\
 	dialogcsvuploadcommand.h \
-    dialogtimestampgenerator2.h
+    dialogtimestampgenerator2.h \
+    dialogfotofinishsettings.h
 
 FORMS += dialogbindboatbox.ui \
 	dialogdatabaselogin.ui \
@@ -62,7 +63,8 @@ FORMS += dialogbindboatbox.ui \
     welcomescreen.ui \
     dialogcompetitionproperties.ui \
     dialogcsvuploadcommand.ui \
-    dialogtimestampgenerator2.ui
+    dialogtimestampgenerator2.ui \
+    dialogfotofinishsettings.ui
 
 SOURCES += boat.cpp \
 	boatbox.cpp \
@@ -98,7 +100,8 @@ SOURCES += boat.cpp \
     publictablewidget.cpp \
     autosavemanager.cpp \
     dialogcsvuploadcommand.cpp \
-    dialogtimestampgenerator2.cpp
+    dialogtimestampgenerator2.cpp \
+    dialogfotofinishsettings.cpp
 
 RESOURCES += \
     kiboko-manager.qrc
@@ -145,3 +148,6 @@ RESOURCES += \
 
 	target.depends = staff_client_proxy_impl
 }
+
+OTHER_FILES += \
+    noImage.png

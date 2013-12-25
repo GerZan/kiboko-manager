@@ -149,7 +149,8 @@ private:
 
     DialogNewCompetition* dialogNewCompetition;
 	DialogDisplaySettings* dialogDisplaySettings;
-	static Competition* myCompetition;
+    DialogFotoFinishSettings *  dialogFotoFinishSettings;
+    static Competition* myCompetition;
 	static MainWindow* myMainWindow;
 
 	DialogTimeStampGenerator* dialogTimeStampGenerator;

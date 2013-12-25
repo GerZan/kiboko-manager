@@ -18,7 +18,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget_main">
       <property name="currentIndex">
-       <number>0</number>
+       <number>3</number>
       </property>
       <property name="documentMode">
        <bool>true</bool>
@@ -717,8 +717,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1251</width>
-             <height>567</height>
+             <width>98</width>
+             <height>28</height>
             </rect>
            </property>
           </widget>
@@ -736,6 +736,43 @@
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="tab_monitor">
+       <attribute name="title">
+        <string>Foto-Finish</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="PublicWidget" name="widget_public1" native="true">
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>661</width>
+             <height>361</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>lab_lastImage</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>1000</x>
+             <y>390</y>
+             <width>221</width>
+             <height>161</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>lab_liveImage</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
      </widget>
     </item>
    </layout>
@@ -746,7 +783,7 @@
      <x>0</x>
      <y>0</y>
      <width>1289</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuCompetition">
@@ -777,6 +814,8 @@
     <addaction name="actionGlobalSoundOnOff"/>
     <addaction name="actionShowColumnsSettings"/>
     <addaction name="actionMaximicePublicWidget"/>
+    <addaction name="separator"/>
+    <addaction name="actionShowFoto_Finish"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -971,6 +1010,11 @@
   <action name="actionReset_Goalbox">
    <property name="text">
     <string>Reset Goalbox</string>
+   </property>
+  </action>
+  <action name="actionShowFoto_Finish">
+   <property name="text">
+    <string>Foto-Finish</string>
    </property>
   </action>
  </widget>
